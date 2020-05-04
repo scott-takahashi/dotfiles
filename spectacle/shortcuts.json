@@ -1,0 +1,10 @@
+[
+	{
+		"shortcut_key_binding": "ctrl+alt+cmd+f",
+		"shortcut_name": "MoveToFullscreen"
+	},
+	{
+		"shortcut_key_binding": "ctrl+alt+cmd+c",
+		"shortcut_name": "MoveToCenter"
+	}
+]
