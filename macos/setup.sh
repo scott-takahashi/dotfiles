@@ -23,7 +23,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name
 sudo scutil --set ComputerName "Scott’s Macbook"
-sudo scutil --set LocalHostName "Scott’s Macbook"
 sudo scutil --set HostName "Scott’s Macbook"
 
 ###############################################################################
@@ -127,7 +126,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
-defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain KeyRepeat -int 5
 
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -189,8 +188,8 @@ sudo pmset -a standbydelay 86400
 ###############################################################################
 
 # Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 5
+# defaults write com.apple.screensaver askForPassword -int 1
+# defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Enable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool false
