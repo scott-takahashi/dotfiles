@@ -10,6 +10,7 @@ COMMENT=\#*
 sudo -v
 
 info "Installing Brewfile packages..."
+brew update
 brew bundle
 success "Finished installing Brewfile packages."
 

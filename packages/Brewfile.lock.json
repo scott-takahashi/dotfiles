@@ -140,6 +140,12 @@
         "options": {
           "full_name": "karabiner-elements"
         }
+      },
+      "alfred": {
+        "version": "4.0.9_1144",
+        "options": {
+          "full_name": "alfred"
+        }
       }
     },
     "brew": {
