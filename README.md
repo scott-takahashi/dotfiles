@@ -1,5 +1,7 @@
 # Scott’s dotfiles
 
+Much of this was taken from [rkalis’ dotfiles](https://github.com/rkalis/dotfiles) and modified for my own needs and preferences.
+
 ## Setting up a new machine
 
 1. Restore SSH keys or create new ones.
@@ -38,9 +40,11 @@ cd ~ && mkdir -p code && cd code
 git clone git@github.com:scott-takahashi/dotfiles.git
 ```
 
-4. Run the `bootstrap.sh` script.
+4. Run the `bootstrap.sh` script in `bash`.
 
 ```bash
 cd ~/code/dotfiles
 source bootstrap.sh
 ```
+
+5. To re-run specific scripts, `cd` into the directory and run `source setup.sh`.

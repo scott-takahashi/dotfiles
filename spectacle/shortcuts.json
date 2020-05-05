@@ -6,5 +6,13 @@
 	{
 		"shortcut_key_binding": "ctrl+alt+cmd+c",
 		"shortcut_name": "MoveToCenter"
+	},
+	{
+		"shortcut_key_binding": "ctrl+alt+cmd+down",
+		"shortcut_name": "MoveToBottomHalf"
+	},
+	{
+		"shortcut_key_binding": "ctrl+alt+cmd+up",
+		"shortcut_name": "MoveToTopHalf"
 	}
 ]

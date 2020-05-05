@@ -1,0 +1,26 @@
+# Theme
+zhuangtongfa.material-theme
+pkief.material-icon-theme
+#
+# Languages
+dnicolson.binary-plist
+mikestead.dotenv
+ms-python.python
+skyapps.fish-vscode
+#
+# Extensions
+chakrounanas.turbo-console-log
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+eamodio.gitlens
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+msjsdiag.debugger-for-chrome
+naumovs.color-highlight
+pnp.polacode
+shd101wyy.markdown-preview-enhanced
+streetsidesoftware.code-spell-checker
+yzhang.markdown-all-in-one
+zengxingxin.sort-js-object-keys

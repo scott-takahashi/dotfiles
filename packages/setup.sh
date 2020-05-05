@@ -15,6 +15,7 @@ success "Finished installing Brewfile packages."
 
 fnm use 12
 success "Switched to Node v12"
+eval "$(fnm env --multi)"
 
 find * -name "*.list" | while read fn; do
     cmd="${fn%.*}"
