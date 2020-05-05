@@ -26,6 +26,12 @@ eval "$(ssh-agent -s)"
 ssh-add -K ~/.ssh/id_ed25519
 ```
 
+Add the public key to your Github account if it’s not already there.
+
+```bash
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
 2. Install Homebrew and git.
 
 ```bash
