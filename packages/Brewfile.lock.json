@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "2daf961759b611ce7c557a82c7bf5b36f13d4baf"
+        "revision": "3ad73b01fad020f5fd1b4adf3ef7f5af4742d3bb"
       },
       "homebrew/bundle": {
         "revision": "8cfc957ed337e93ef3a69256615e012b72fbbc54"
@@ -145,6 +145,12 @@
         "version": "4.0.9_1144",
         "options": {
           "full_name": "alfred"
+        }
+      },
+      "figma": {
+        "version": "latest",
+        "options": {
+          "full_name": "figma"
         }
       }
     },
@@ -523,7 +529,11 @@
         "version": "2020.05.03",
         "bottle": false
       },
-      "python3": null
+      "python3": null,
+      "archey": {
+        "version": "1.6.0_1",
+        "bottle": false
+      }
     },
     "mas": {
       "Keynote": {
@@ -541,7 +551,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.15",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0e221101e4fc90f84040df1fc1faa7db27c9c297",
+        "Homebrew/homebrew-core": "0d90e8aa71cb13316a483d5df4e6b157260c7244",
         "CLT": "11.4.1.0.1.1586360307",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
