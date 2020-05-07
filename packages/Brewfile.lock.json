@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "c814e56dd30d07a47661b78165252cbb62639b0b"
+        "revision": "3a137686c8051d604f0732b11aabc959167c6ae8"
       },
       "homebrew/bundle": {
-        "revision": "8cfc957ed337e93ef3a69256615e012b72fbbc54"
+        "revision": "9f71c51a6b64557f7bb477e8e0166cd61a482e05"
       },
       "buo/cask-upgrade": {
         "revision": "84cfa3867bd3ce7b58c5eaa794ef1b0a76fcbc76"
@@ -539,6 +539,31 @@
       "archey": {
         "version": "1.6.0_1",
         "bottle": false
+      },
+      "autojump": {
+        "version": "22.5.3",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/autojump-22.5.3.catalina.bottle.tar.gz",
+              "sha256": "11ab5e57c200bd21825899a7f2a7792afd0c19f8c065729e56673f5f949a97e7"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/autojump-22.5.3.mojave.bottle.tar.gz",
+              "sha256": "5576b3f2b9fcb2a236d6ac22b163af03994edb98b69c997ed5a88db85c8d0a15"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/autojump-22.5.3.high_sierra.bottle.tar.gz",
+              "sha256": "5576b3f2b9fcb2a236d6ac22b163af03994edb98b69c997ed5a88db85c8d0a15"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/autojump-22.5.3.sierra.bottle.tar.gz",
+              "sha256": "c95107719bd784e0e348be6dbfb3a780240d96f8d76710271c3642335babbd8f"
+            }
+          }
+        }
       }
     },
     "mas": {
@@ -549,6 +574,10 @@
       "Xcode": {
         "id": "497799835",
         "version": "11.4.1"
+      },
+      "Pages": {
+        "id": "409201541",
+        "version": "10.0"
       }
     }
   },
@@ -557,7 +586,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.15",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5f4608ddaa5a335190a90544e3d2b5283bed7964",
+        "Homebrew/homebrew-core": "88b65a0c80366208e1e16f1266b13c946d32b5af",
         "CLT": "11.4.1.0.1.1586360307",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"

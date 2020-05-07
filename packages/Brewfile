@@ -30,6 +30,7 @@ cask 'vlc'
 cask 'zoomus'
 
 brew 'archey'
+brew 'autojump'
 brew 'awscli'
 brew 'brew-cask-completion'
 brew 'coreutils'
