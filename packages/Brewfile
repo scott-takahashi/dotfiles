@@ -14,6 +14,7 @@ cask 'discord'
 cask 'dropbox'
 cask 'figma'
 cask 'firefox'
+cask 'gifox'
 cask '1password'
 cask 'iterm2'
 cask 'karabiner-elements'
@@ -55,4 +56,5 @@ brew 'wget'
 brew 'youtube-dl'
 
 mas 'Keynote', id: 409183694
+mas 'Pages', id: 409201541
 mas 'Xcode', id: 497799835

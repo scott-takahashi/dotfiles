@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "3ad73b01fad020f5fd1b4adf3ef7f5af4742d3bb"
+        "revision": "c814e56dd30d07a47661b78165252cbb62639b0b"
       },
       "homebrew/bundle": {
         "revision": "8cfc957ed337e93ef3a69256615e012b72fbbc54"
@@ -40,7 +40,7 @@
         }
       },
       "dashlane": {
-        "version": "6.2004.0.32116",
+        "version": "6.2017.0.34634",
         "options": {
           "full_name": "dashlane"
         }
@@ -151,6 +151,12 @@
         "version": "latest",
         "options": {
           "full_name": "figma"
+        }
+      },
+      "gifox": {
+        "version": "2.1.4,020104.00",
+        "options": {
+          "full_name": "gifox"
         }
       }
     },
@@ -551,7 +557,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.15",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0d90e8aa71cb13316a483d5df4e6b157260c7244",
+        "Homebrew/homebrew-core": "5f4608ddaa5a335190a90544e3d2b5283bed7964",
         "CLT": "11.4.1.0.1.1586360307",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
