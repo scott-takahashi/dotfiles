@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "3a137686c8051d604f0732b11aabc959167c6ae8"
+        "revision": "0bf23a9ef3947af8679456e44baffc36dfc5f20a"
       },
       "homebrew/bundle": {
-        "revision": "9f71c51a6b64557f7bb477e8e0166cd61a482e05"
+        "revision": "6cc55a61616f6c4c195bdc13847060b699a0e407"
       },
       "buo/cask-upgrade": {
         "revision": "84cfa3867bd3ce7b58c5eaa794ef1b0a76fcbc76"
@@ -14,10 +14,10 @@
         "revision": "6c5636b6023fecfaf6bc74435092cf0de58a7219"
       },
       "github/gh": {
-        "revision": "56f2fc5e57e4b1439bdec1e6bb2fd3b3ad51540d"
+        "revision": "23b38b7c95cea21ec621d6546a18b291830d6260"
       },
       "heroku/brew": {
-        "revision": "6dcfb4be6a744ce4994234f0ecb96eb9ca429f97"
+        "revision": "f7fa3b71a7fd3b93dacd9c3b31d2e5f856ba8e3a"
       }
     },
     "cask": {
@@ -157,6 +157,12 @@
         "version": "2.1.4,020104.00",
         "options": {
           "full_name": "gifox"
+        }
+      },
+      "fontbase": {
+        "version": "2.11.3",
+        "options": {
+          "full_name": "fontbase"
         }
       }
     },
@@ -364,7 +370,7 @@
         }
       },
       "heroku": {
-        "version": "7.40.0",
+        "version": "7.41.1",
         "bottle": false
       },
       "htop": {
@@ -532,7 +538,7 @@
         }
       },
       "youtube-dl": {
-        "version": "2020.05.03",
+        "version": "2020.05.08",
         "bottle": false
       },
       "python3": null,
@@ -584,9 +590,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.15",
+        "HOMEBREW_VERSION": "2.2.16",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "88b65a0c80366208e1e16f1266b13c946d32b5af",
+        "Homebrew/homebrew-core": "c8be98d8c24c79277e46fc34df5106a11863499a",
         "CLT": "11.4.1.0.1.1586360307",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
