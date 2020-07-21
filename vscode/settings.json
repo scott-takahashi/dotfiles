@@ -3,6 +3,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
 
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
     "editor.fontFamily": "'Operator Mono', Monaco",
     "editor.fontSize": 16,
     "editor.rulers": [79],
@@ -35,7 +36,8 @@
     },
 
     "[javascript]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 
     "[tsx]": {
@@ -67,5 +69,9 @@
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.userWords": [
+        "chakra"
+    ]
 }
