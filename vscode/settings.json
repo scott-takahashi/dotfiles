@@ -12,7 +12,6 @@
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 100,
     "editor.renderWhitespace": "boundary",
-    "editor.renderIndentGuides": true,
     "editor.suggestSelection": "first",
     // "editor.fontWeight": "600",
 
@@ -73,5 +72,7 @@
     "explorer.confirmDragAndDrop": false,
     "cSpell.userWords": [
         "chakra"
-    ]
+    ],
+    "editor.guides.indentation": true,
+    "editor.inlineSuggest.enabled": true
 }

@@ -30,6 +30,7 @@ find * -name "setup.sh" -not -wholename "packages*" -not -wholename "fish*" | wh
     ./$setup
 done
 
-./fish/setup.sh
+# Fish setup is disabled
+# ./fish/setup.sh
 
 success "Finished installing Dotfiles"
