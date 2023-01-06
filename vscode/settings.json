@@ -5,7 +5,7 @@
 
     "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
     "editor.fontFamily": "'Operator Mono', Monaco",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.rulers": [79],
     // "editor.roundedSelection": false,
     "editor.minimap.enabled": true,
